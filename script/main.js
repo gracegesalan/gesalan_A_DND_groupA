@@ -38,6 +38,8 @@ function changeBGImage() {
 	// the `` is a javascript template string. it tells the 25 enging to evaliuuate the 
 	// puzzleBoard.getElementsByClassName.backgroundImage= `url('images/backGround0${this.id}.jpg')`;
 	puzzleBoard.style.backgroundImage = `url('images/backGround${this.id}.jpg')`;
+
+	// second bug is here
 }
 
 function handleStartDrag() {
@@ -56,7 +58,7 @@ function handleDragOver(e) {
 function handleDrop(e) {
 	e.preventDefault();
 	console.log('dropped something on me');
-
+	// first bug is here
 	// this line is going to move the dragged piece from the left side of the board
 	// into whatever drop zone we choose. appendchild means 'add elements to the container"
 	this.appendChild(draggedPiece);
