@@ -37,7 +37,10 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
 function changeBGImage() {
 	// the `` is a javascript template string. it tells the 25 enging to evaliuuate the 
 	// puzzleBoard.getElementsByClassName.backgroundImage= `url('images/backGround0${this.id}.jpg')`;
+	// dropZones.forEach(zone => {zone.innerHTML = ''});
 	puzzleBoard.style.backgroundImage = `url('images/backGround${this.id}.jpg')`;
+	// puzzlePieces.forEach(piece => {piece.classList.remove('dropped');
+	// puzzleBoard.appendChild(piece);});
 
 	// second bug is here
 }
