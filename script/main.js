@@ -42,6 +42,8 @@ function changeBGImage() {
 	// puzzlePieces.forEach(piece => {piece.classList.remove('dropped');
 	// puzzleBoard.appendChild(piece);});
 
+	
+
 	dropZones.forEach(zone => {
 		zone.innerHTML = '';
 	  });
@@ -50,6 +52,12 @@ function changeBGImage() {
 		piece.classList.remove('dropped');
 		puzzleBoard.appendChild(piece);
 	  });
+
+	  puzzlePieces.forEach(piece => {
+    let index = piece.dataset.index;
+    piece.style.left = `${pieces[index].x}px`;
+    piece.style.top = `${pieces[index].y}px`;
+  });
 
 	// second bug is here
 }
@@ -77,9 +85,8 @@ function handleDrop(e) {
 	}
 
 
-	if (this.children.length > 0) {
-		return;
-	}
+
+
 
 
 	// first bug is here
