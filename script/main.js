@@ -71,9 +71,17 @@ function handleDragOver(e) {
 function handleDrop(e) {
 	e.preventDefault();
 	console.log('dropped something on me');
+
 	if (this.children.length > 0) {
 		return;
 	}
+=======
+
+	if (this.children.length > 0) {
+		return;
+	}
+
+
 	// first bug is here
 	// this line is going to move the dragged piece from the left side of the board
 	// into whatever drop zone we choose. appendchild means 'add elements to the container"
