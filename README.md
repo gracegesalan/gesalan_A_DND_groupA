@@ -1,6 +1,6 @@
-# Drag and Drop
+# Drag and Drop Puzzle Board
 
-Created drag and drop
+A puzzle board that you can interact with. Drag and drop the puzzle pieces to the board and solve the picture.
 
 ## Contributing
 
