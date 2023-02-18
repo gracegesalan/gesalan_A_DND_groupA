@@ -75,7 +75,7 @@ function handleDrop(e) {
 	if (this.children.length > 0) {
 		return;
 	}
-=======
+
 
 	if (this.children.length > 0) {
 		return;
