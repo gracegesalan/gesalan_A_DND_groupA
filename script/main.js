@@ -88,6 +88,7 @@ function handleDrop(e) {
 
 
 
+
 	// first bug is here
 	// this line is going to move the dragged piece from the left side of the board
 	// into whatever drop zone we choose. appendchild means 'add elements to the container"
