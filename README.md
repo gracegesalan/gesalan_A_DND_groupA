@@ -13,7 +13,7 @@ A puzzle board that you can interact with. Drag and drop the puzzle pieces to th
 
 ## Credits
 
-Apple Grace gesalan
+Apple Grace Gesalan
 
 ## License
 
